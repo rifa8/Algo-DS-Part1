@@ -2,7 +2,6 @@ def generate_primes_grid(width, height, start):
     prima = []
     grid = []
     bil = 1
-    range = start // 2 * 2
     while len(grid) < width * height:
         if bil == 1:
             bil += 1
